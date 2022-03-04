@@ -4,6 +4,43 @@
     padding: 0;
 }
 
-body{
-    background-color: rgb(50, 99, 83);
+
+.container{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)),url("../assets/ghana.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:blur(18px);
+    
+}
+.innerContainer{
+    height: 80%;
+    width: 70%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+
+}
+.col-left{
+    width: 45%;
+    height: 100%;
+    background-image: url("../assets/ghana.jpeg");
+    background-position: center;
+    background-size: cover;
+    z-index: 500;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+
+}
+
+.col-right{
+    width: 55%;
+    height: 100%;
+    border: 2px solid white;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    background-color: rgba(0,0,0,.2);
+    backdrop-filter: blur(20px);
 }
