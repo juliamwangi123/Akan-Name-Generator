@@ -49,11 +49,6 @@ h1 {
     background-position: center;
     border-bottom-left-radius: 5%;
     border-top-left-radius: 5%;
-    background-color: rgba(0,0,0,.2);
-    backdrop-filter: blur(20px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     animation: slide 7s infinite;
 }
 
