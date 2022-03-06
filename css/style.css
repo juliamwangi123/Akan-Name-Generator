@@ -51,7 +51,7 @@ h1 {
     border-top-left-radius: 5%;
     animation: slide 7s infinite;
 }
-
+/* percenatge are in relation with the time duration in keyframs */
 @keyframes slide{
     0%{
         background-image: url(../assets/ghana.jpeg);
