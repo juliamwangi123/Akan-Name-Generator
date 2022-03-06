@@ -274,6 +274,7 @@ label:first-child{
 }
 
 @media screen and (max-width:768px){
+    
 .innerContainer{
     display: flex;
 }
