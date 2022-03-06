@@ -251,3 +251,11 @@ label:first-child{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#results{
+    position: absolute;
+    top:-20%;
+    color: blanchedalmond;
+    font-style: oblique;
+    font-weight: 600;
+}
