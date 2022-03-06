@@ -14,13 +14,18 @@
     
 }
 
-.logo{
+h1 {
     position: absolute;
     left: -18%;
-    top:-10%;
+    top:-13%;
+    font-size: 54px;
+    font-weight: 900;
     color: transparent;
-    background: conic-gradient();
-
+    background: conic-gradient(#f72f35 12%, green 12%, red 45%, black 35%, #ffd700 35%
+    , yellow 55%, yellow 60%, black 70%,#d1e231 70%, #d1e231 90% , black 90%, black 50%) ;
+    background-size: 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .innerContainer{
