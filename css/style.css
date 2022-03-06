@@ -10,9 +10,10 @@
     background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)),url("../assets/ghana.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    filter:blur(18px);
+    filter:blur(8px);
     
 }
+
 .innerContainer{
     height: 80%;
     width: 70%;
@@ -26,21 +27,181 @@
 .col-left{
     width: 45%;
     height: 100%;
-    background-image: url("../assets/ghana.jpeg");
-    background-position: center;
+    background-image: url(../assets/ghana.jpeg);
     background-size: cover;
-    z-index: 500;
+    background-position: center;
     border-bottom-left-radius: 5%;
     border-top-left-radius: 5%;
+    background-color: rgba(0,0,0,.2);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.col-left p{
+    color: black;
+    margin: 20px;
+    /* z-index: 500; */
+    margin-top: 20%;
+    
+}
+.description{
+    background-color: rgba(255,255,255,.1);
+    margin-left: 20px;
+    height: 80%;
 }
 
 .col-right{
     width: 55%;
     height: 100%;
-    border: 2px solid white;
     border-bottom-right-radius: 5%;
     border-top-right-radius: 5%;
     background-color: rgba(0,0,0,.2);
     backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.col-right h2{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: white;
+}
+.col-right form{
+    height: 67%;
+    width:80%;
+    position: relative;
+    top: 10%;
+    border:1px solid white;
+    margin-bottom: 10%;
+    border-radius: 5%;
+    
+    
+   
+}
+
+label:first-child{
+    position: relative;
+    left:5%;
+    top:10%;
+}
+ .name{
+    position: relative;
+    left :20%;
+    top:10%;
+    padding: 7px;
+}
+
+.date{
+    position: relative;
+    left :16%;
+    top:15%;
+    padding: 5px;
+    width: 195px;
+
+}
+.dob{
+    position: relative;
+    left:5%;
+    top:15%;
+}
+
+.gender{
+    position: absolute;
+    left:6%;
+    top:40%;
+}
+
+.female{
+    position: absolute;
+    top:40%;
+    left: 43%;
+}
+.male{
+    position: absolute;
+    top:40%;
+
+}
+
+.femaleRadio{
+    position: absolute;
+    top:41%;
+    left: 58%;
+}
+.maleRadio{
+    position: absolute;
+    top:41%;
+    left: 84%;    
+}
+
+.btn{
+
+    position:absolute;
+    top:55%;
+    left: 40%;
+    padding: 8px;
+    width: 70px;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    z-index: 500;
+}
+
+.btnreset{
+
+    position:absolute;
+    top:55%;
+    left: 70%;
+    padding: 8px;
+    width: 70px;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    z-index: 500;
+}
+.resultBox{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: Consolas;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    visibility: hidden;
+    box-shadow: 20px 20px 8px 5px white;
+    
+
+}
+.btn{
+    cursor: pointer;
+}
+.btnreset{
+    cursor: pointer;
+    
+}
+
+.close{
+    position: absolute;
+    top:0%;
+    right:0%;
+    background-color: red;
+    height: 10%;
+    width: 8%;
+    display: flex;
+    align-items: cente;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.resultBox.active{
+    visibility: visible;
 }

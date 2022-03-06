@@ -5,28 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Name Generator</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="container">
     
+
 </div>
 <div class="innerContainer">
-        <div class="col-left"></div>
+        <div class="col-left">
+        </div>
+
         <div class="col-right">
+            <h2>Akan Name Generator</h2>
+
             <form id="form">
-                <input type="text">
+                <label>Full Name: </label>
+                <input type="text" placeholder="Fullname" name="name" class="name" required>
+                <br>
+                <label for="year of Birth" class="dob">Date of Birth:</label>
+                <input type="date" name="date" max="2022-12-31"
+                min="1970-01-01" class="date">
+                <label for="gender" class="gender">Gender:</label>
+                <label for="female" class="female">Female</label>
+                <input type="radio" name="gender" value="female" class="femaleRadio" >
+                <label for="male" class="male">Male</label>
+                <input type="radio" name="gender" value="male" class="maleRadio" >
+                <button type="submit" class="btn">Submit</button>
+                <button type="reset" class="btnreset">Reset</button>
+
+
             </form>
+
+        </div>
+        <div class="resultBox">
+            <p id="results">results goes here ...</p>
+            <div class="close">x</div>
 
         </div>
 </div>
 
 
 
-
-
-
-
     <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
