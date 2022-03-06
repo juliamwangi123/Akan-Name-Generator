@@ -33,10 +33,10 @@ let showResult = function(){
     resultBox.style.backgroundImage="url(assets/kwesi.png)";
    }
    if(akinName == akinMale[1]){
-    resultBox.style.backgroundImage=url(assets/kwado.png)
+    resultBox.style.backgroundImage=`url(assets/kwado.png)`
    }
    if(akinName == akinMale[2]){
-    resultBox.style.backgroundImage=url(assets/kwabena.jpeg)
+    resultBox.style.backgroundImage=`url(assets/kwabena.jpeg)`
    }
    if(akinName == akinMale[3]){
     resultBox.style.backgroundImage=url(assets/kwaku.jpeg)
