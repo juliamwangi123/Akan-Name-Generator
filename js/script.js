@@ -33,44 +33,44 @@ let showResult = function(){
     resultBox.style.backgroundImage="url(assets/kwesi.png)";
    }
    if(akinName == akinMale[1]){
-    resultBox.style.backgroundImage=`url(assets/kwado.png)`
+    resultBox.style.backgroundImage="url(assets/kwado.png)";
    }
    if(akinName == akinMale[2]){
-    resultBox.style.backgroundImage=`url(assets/kwabena.jpeg)`
+    resultBox.style.backgroundImage="url(assets/kwabena.jpeg)";
    }
    if(akinName == akinMale[3]){
-    resultBox.style.backgroundImage=`url(assets/kwaku.jpeg)`
+    resultBox.style.backgroundImage="url(assets/kwaku.jpeg)";
    }
    if(akinName == akinMale[4]){
-    resultBox.style.backgroundImage=`url(assets/yaa.jpeg)`
+    resultBox.style.backgroundImage="url(assets/yaa.jpeg)";
    }
    if(akinName == akinMale[5]){
-    resultBox.style.backgroundImage=`url(assets/kofi.jpeg)`
+    resultBox.style.backgroundImage="url(assets/kofi.jpeg)";
    }
    if(akinName == akinMale[6]){
-    resultBox.style.backgroundImage=url`(assets/kwame.jpeg)`
+    resultBox.style.backgroundImage="url(assets/kwame.jpeg)";
    }
    //women names
    if(akinName == akinFemale[0]){
-    resultBox.style.backgroundImage=`url(assets/akosua.jpeg)`
+    resultBox.style.backgroundImage="url(assets/akosua.jpeg)";
    }
    if(akinName == akinFemale[1]){
-    resultBox.style.backgroundImage=`url(assets/adwoa.jpeg)`
+    resultBox.style.backgroundImage="url(assets/adwoa.jpeg)";
    }
    if(akinName == akinFemale[2]){
-    resultBox.style.backgroundImage=`url(assets/abena.jpeg)`
+    resultBox.style.backgroundImage="url(assets/abena.jpeg)";
    }
    if(akinName == akinFemale[3]){
-    resultBox.style.backgroundImage=`url(assets/weno.jpg)`
+    resultBox.style.backgroundImage="url(assets/weno.jpg)";
    }
    if(akinName == akinFemale[4]){
-    resultBox.style.backgroundImage=`url(assets/yaa2.jpeg)`
+    resultBox.style.backgroundImage="url(assets/yaa2.jpeg)";
    }
    if(akinName == akinFemale[5]){
-    resultBox.style.backgroundImage=`url(assets/afua.png)`
+    resultBox.style.backgroundImage="url(assets/afua.png)";
    }
    if(akinName == akinFemale[6]){
-    resultBox.style.backgroundImage=`url(assets/ama1.jpg)`
+    resultBox.style.backgroundImage="url(assets/ama1.jpg)";
    }
 
 
