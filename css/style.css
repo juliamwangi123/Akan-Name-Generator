@@ -292,4 +292,34 @@ label:first-child{
     top:20%;
     left: 0%;
 }
+.female{
+    position: relative;
+    top:20%;
+    left: 5%;
+}
+.femaleRadio{
+    position: relative;
+    top:20%;
+    left: 8%;
+}
+.male{
+    position: absolute;
+    top:52%;
+    left: 35%;
+}
+.maleRadio{
+    position: absolute;
+    top:52%;
+    left: 64%;
+}
+.btn{
+    position: absolute;
+    top:58%;
+    left: 0%;
+}
+.btnreset{
+    position: relative;
+    top:28%;
+    left: 60%;
+}
 }
