@@ -25,9 +25,27 @@ let resultBox = document.querySelector(".resultBox");
 let showResult = function(){
     resultBox.classList.add("active");
     innerContainer.classList.add("active")
-   document.querySelector("#results").innerHTML =akinName;
+//    document.querySelector("#results").innerHTML =akinName;
    if(akinName == akinMale[0]){
-    resultBox.style.backgroundImage="url(../assets/siz.png)"
+    resultBox.style.backgroundImage="url(../assets/kwesi.png)"
+   }
+   if(akinName == akinMale[1]){
+    resultBox.style.backgroundImage="url(../assets/kwado.png)"
+   }
+   if(akinName == akinMale[2]){
+    resultBox.style.backgroundImage="url(../assets/kwabena.jpeg)"
+   }
+   if(akinName == akinMale[3]){
+    resultBox.style.backgroundImage="url(../assets/kwaku.jpeg)"
+   }
+   if(akinName == akinMale[4]){
+    resultBox.style.backgroundImage="url(../assets/yaa.jpeg)"
+   }
+   if(akinName == akinMale[5]){
+    resultBox.style.backgroundImage="url(../assets/kofi.jpeg)"
+   }
+   if(akinName == akinMale[6]){
+    resultBox.style.backgroundImage="url(../assets/kwame.jpeg)"
    }
 
 }
