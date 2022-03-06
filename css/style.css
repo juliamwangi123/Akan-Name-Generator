@@ -7,7 +7,7 @@
 
 .container{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)),url("../assets/ghana.jpeg");
+    background-image: url("../assets/ghana.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     filter:blur(8px);
@@ -20,6 +20,7 @@ h1 {
     top:-13%;
     font-size: 54px;
     font-weight: 900;
+    font-style: italic;
     color: transparent;
     background: conic-gradient(#f72f35 12%, green 12%, red 45%, black 35%, #ffd700 35%
     , yellow 55%, yellow 60%, black 70%,#d1e231 70%, #d1e231 90% , black 90%, black 50%) ;
