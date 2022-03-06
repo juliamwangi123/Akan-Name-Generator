@@ -30,7 +30,6 @@
 .col-left{
     width: 45%;
     height: 100%;
-    background-image: url(../assets/ghana.jpeg);
     background-size: cover;
     background-position: center;
     border-bottom-left-radius: 5%;
@@ -40,8 +39,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: slide 5s infinite;
 }
 
+@keyframes slide{
+    0%{
+        background-image: url(../assets/ghana.jpeg);
+
+    }
+    20%{
+        background-image: url(../assets/five.jpeg);
+
+    }
+    40%{
+        background-image: url(../assets/two.jpeg);
+    }
+    60%{
+        background-image: url(../assets/one.webp);
+    }
+    80%{
+        background-image: url(../assets/ghana.jpeg);
+    }
+
+    100%{
+        background-image: url(../assets/siz.png);
+
+    }
+}
 .col-left p{
     color: black;
     margin: 20px;
