@@ -47,6 +47,29 @@ let showResult = function(){
    if(akinName == akinMale[6]){
     resultBox.style.backgroundImage="url(../assets/kwame.jpeg)"
    }
+   //women names
+   if(akinName == akinFemale[0]){
+    resultBox.style.backgroundImage="url(../assets/akosua.jpeg)"
+   }
+   if(akinName == akinFemale[1]){
+    resultBox.style.backgroundImage="url(../assets/adwoa.jpeg)"
+   }
+   if(akinName == akinFemale[2]){
+    resultBox.style.backgroundImage="url(../assets/abena.jpeg)"
+   }
+   if(akinName == akinFemale[3]){
+    resultBox.style.backgroundImage="url(../assets/weno.jpg)"
+   }
+   if(akinName == akinFemale[4]){
+    resultBox.style.backgroundImage="url(../assets/yaa2.jpeg)"
+   }
+   if(akinName == akinFemale[5]){
+    resultBox.style.backgroundImage="url(../assets/afua.png)"
+   }
+   if(akinName == akinFemale[6]){
+    resultBox.style.backgroundImage="url(../assets/ama1.jpg)"
+   }
+
 
 }
 

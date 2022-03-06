@@ -119,11 +119,13 @@ label:first-child{
     top:10%;
     font-weight: 500;
 }
+
  .name{
     position: relative;
     left :20%;
     top:10%;
     padding: 7px;
+    
 }
 
 .date{
@@ -140,6 +142,7 @@ label:first-child{
     left:5%;
     top:15%;
 }
+
 
 .gender{
     position: absolute;
@@ -165,11 +168,15 @@ label:first-child{
     position: absolute;
     top:41%;
     left: 58%;
+    font-weight: 500;
+
 }
 .maleRadio{
     position: absolute;
     top:41%;
-    left: 84%;    
+    left: 84%; 
+    font-weight: 500;
+   
 }
 
 .btn{
