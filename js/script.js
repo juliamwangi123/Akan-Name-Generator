@@ -13,7 +13,7 @@ let resultBox = document.querySelector(".resultBox");
     if(formData.get("gender")=== null){
         alert("please select your gender")
     }
-     akinName = (formData.get("gender")=== "maresultBoxle")? (akinMale[dayOfWeek]): (akinFemale[dayOfWeek]);
+     akinName = (formData.get("gender")=== "male")? (akinMale[dayOfWeek]): (akinFemale[dayOfWeek]);
 
     // alert(akinName);
     showResult()
@@ -24,7 +24,7 @@ let resultBox = document.querySelector(".resultBox");
 // show results
 let showResult = function(){
     resultBox.classList.add("active");
-    innerContainer.classList.remove("innerContainer")
+    innerContainer.classList.add("active")
    document.querySelector("#results").innerHTML =akinName;
 
 }
@@ -34,7 +34,7 @@ let close = document.querySelector(".close");
 close.addEventListener("click", (e)=>{
     e.preventDefault();
     resultBox.classList.remove("active");
-    innerContainer.classList.add("innerContainer")
+    innerContainer.classList.remove("active")
     form.reset();
 
 })

@@ -24,6 +24,9 @@
     display: flex;
 
 }
+.innerContainer.active{
+    visibility: hidden;
+}
 .col-left{
     width: 45%;
     height: 100%;
@@ -177,8 +180,7 @@ label:first-child{
     align-items: center;
     font-size: 32px;
     visibility: hidden;
-    box-shadow: 20px 20px 8px 5px white;
-    
+
 
 }
 .btn{
