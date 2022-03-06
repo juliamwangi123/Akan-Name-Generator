@@ -26,6 +26,9 @@ let showResult = function(){
     resultBox.classList.add("active");
     innerContainer.classList.add("active")
    document.querySelector("#results").innerHTML =akinName;
+   if(akinName == akinMale[0]){
+    resultBox.style.backgroundImage="url(../assets/siz.png)"
+   }
 
 }
 

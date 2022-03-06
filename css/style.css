@@ -39,7 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: slide 5s infinite;
+    animation: slide 7s infinite;
 }
 
 @keyframes slide{
@@ -47,15 +47,17 @@
         background-image: url(../assets/ghana.jpeg);
 
     }
-    20%{
-        background-image: url(../assets/five.jpeg);
+    30%{
+        background-image: url(../assets/male.jpeg);
 
     }
-    40%{
-        background-image: url(../assets/two.jpeg);
+    
+    50%{
+        background-image: url(../assets/one.webp);
+
     }
     60%{
-        background-image: url(../assets/one.webp);
+        background-image: url(../assets/female.jpeg);
     }
     80%{
         background-image: url(../assets/ghana.jpeg);
@@ -230,4 +232,10 @@ label:first-child{
 
 .resultBox.active{
     visibility: visible;
+}
+
+.resultBox{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
