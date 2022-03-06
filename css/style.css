@@ -217,6 +217,7 @@ label:first-child{
     justify-content: center;
     align-items: center;
     font-size: 32px;
+    border-radius: 25px;
     visibility: hidden;
 
 
@@ -233,13 +234,15 @@ label:first-child{
     position: absolute;
     top:0%;
     right:0%;
-    background-color: red;
-    height: 10%;
-    width: 8%;
+    background-color: white;
+    height: 6%;
+    width: 5%;
     display: flex;
     align-items: cente;
     justify-content: center;
     cursor: pointer;
+    font-size: 18px;
+    
 }
 
 .resultBox.active{
