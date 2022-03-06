@@ -30,7 +30,7 @@ let showResult = function(){
     document.querySelector("#results").innerHTML =   `${realName} your akan name is:`
     //male names
    if(akinName == akinMale[0]){
-    resultBox.style.backgroundImage="url/assets/kwesi.png)"
+    resultBox.style.backgroundImage="url(assets/kwesi.png)"
    }
    if(akinName == akinMale[1]){
     resultBox.style.backgroundImage="url(../assets/kwado.png)"
