@@ -273,6 +273,21 @@ label:first-child{
     font-weight: 600;
 }
 
-@media screen and (min-width:768){
-
+@media screen and (max-width:768px){
+.innerContainer{
+    display: flex;
+}
+.name{
+    position: absolute;
+    top:10%;
+    left: 0;
+}
+.date{
+    position: relative;
+    top:15%;
+    left: 0%;
+}
+.gender{
+    
+}
 }
